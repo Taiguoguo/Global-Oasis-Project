@@ -62,3 +62,4 @@ Phase 1: Logic & Simulation (已完成 | COMPLETED) ✅核心自愈算法开发 
 
 <img width="1470" height="956" alt="Screenshot 2026-05-09 at 8 55 26 am" src="https://github.com/user-attachments/assets/3d0b1f01-005e-4c2d-84b0-61892ed71156" />
 
+<img width="737" height="776" alt="Screenshot 2026-05-09 at 10 04 34 am" src="https://github.com/user-attachments/assets/104278a2-a5f9-4a64-96b2-7bcc39f79cb0" />
