@@ -1,24 +1,5 @@
-# Core Engine
-This is the "brain" of the Global Oasis Project, primarily responsible for logical computation and system self-healing.
-
-### Core Functions:
-
-1. **Data Fusion**: Integrates readings from 4 ESP32 sensors, using algorithms to remove noise data caused by the high temperatures in the desert.
-
-2. **Decision Making**: Controls dam/irrigation switching based on humidity gradients.
-
-3. **Long-term Self-healing**:
-
-- Automatically detects and disables faulty sensors.
-
-- Automatically resets logic deadlocks.
-
-- Automatically calibrates sensor drift.
-
-### File Descriptions:
-
-- `main.py`: Main system entry point.
-
-- `self_healing.py`: Long-term repair logic.
-
-- `processor.py`: 4-way data processing algorithms.
+Core Engine: The Intelligent Hub. 
+This directory contains the system's core algorithm logic, designed to ensure high availability and decision-making accuracy in extreme drought environments. 
+# 1. Data Integration & Fusion Algorithms: Multi-source Calibration: Processes data from four capacitive sensors in real time. Anomaly Detection: Automatically identifies and removes outliers caused by dust storms or sudden high temperatures using statistical methods, ensuring the data input to the decision-making layer is accurate. 
+# 2. Long-term Self-healing Mechanism: Redundancy & Fault Tolerance: When a single sensor suffers physical damage or communication interruption, the system automatically transfers weights to the remaining sensors. Soft-reset Logic: Monitors the ESP32's operating status and automatically performs a logic reset for common hangs or connection timeouts. 
+# 3. Cross-regional Adaptability: The code structure supports quick switching of environment variable parameters between UAE (United Arab Emirates) and China (China) via configuration files.
