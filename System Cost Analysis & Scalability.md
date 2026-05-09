@@ -28,3 +28,8 @@
 *   **Efficiency Gains (效率提升)**: 
     结合纳米粘土 (Nanoclay)，目标是减少 **40% 的灌溉用水**。
     *Targeting a 40% reduction in water usage.*
+
+    # 项目核心优势 (Project Core Advantage):
+    - 通过选用低成本、工业级的通用组件，本方案实现了极高的经济可行性，极大地降低了荒漠化治理的准入门槛。By adopting low-cost, industrial-grade general-purpose components, this solution achieves high economic feasibility, significantly lowering the barriers to entry for desert restoration.
+    - 成本控制 (Cost Control):由于采用了 ESP32 这种集成 WiFi 和蓝牙的高性能微控制器，单个监测模块的硬件成本得以控制在 $80 - $100 之间。By utilizing the ESP32, a high-performance microcontroller with integrated WiFi and Bluetooth, the hardware cost per monitoring module is maintained between $80 and $100.
+    - 大规模部署 (Large-scale Deployment):这种高性价比的架构配合 Python 自动化控制逻辑，使得系统非常适合在全球干旱地区进行成千上万个单元的大规模部署。This cost-effective architecture, combined with Python automation logic, makes the system ideal for large-scale deployment across thousands of units in arid regions worldwide.
